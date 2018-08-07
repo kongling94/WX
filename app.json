@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hot/hot",
+    "pages/section/section",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "Firefly官网",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": "50px"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "首页",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home-selected.png"
+      },
+      {
+        "pagePath": "pages/section/section",
+        "text": "产品",
+        "iconPath": "static/image/product.png",
+        "selectedIconPath": "static/image/product-selected.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "购物车",
+        "iconPath": "static/image/shopping.png",
+        "selectedIconPath": "static/image/shopping-selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人",
+        "iconPath": "static/image/user.png",
+        "selectedIconPath": "static/image/user-selected.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#ff6600",
+    "backgroundColor": "#fff",
+    "position": "bottom"
+  }
+}

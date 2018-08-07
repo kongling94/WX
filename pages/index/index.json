@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "f-search": "../search/search",
+    "f-swiper": "../swiper/swiper",
+    "f-section": "../section/section"
+  }
+}

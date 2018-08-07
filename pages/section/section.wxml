@@ -1,0 +1,12 @@
+<view class="section">
+  <view class="section-wrap">
+    <view class="section-left">
+      <view class="section-left-item" wx:for="{{images}}" wx:key="{{id}}">
+        <image src="{{item}}" alt="" mode="widthFix"></image>
+      </view>
+    </view>
+    <view class="section-right">
+      <image src="{{largeImg}}" alt="" mode="cover"></image>
+    </view>
+  </view>
+</view>

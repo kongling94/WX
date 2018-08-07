@@ -1,0 +1,6 @@
+<view class="search">
+  <view class="search-btn">
+    <i-icon type="search" size="{{size}}" />
+    搜索产品内容
+  </view>
+</view>
