@@ -1,0 +1,24 @@
+.link {
+  width: 750rpx;
+  background-color: #fff;
+}
+.link-wrap {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.link-item {
+  box-sizing: border-box;
+  flex: 0 0 49%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.link-item:nth-child(even) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.link-item > image {
+  width: 100%;
+  height: 90px;
+}

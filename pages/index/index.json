@@ -2,6 +2,10 @@
   "usingComponents": {
     "f-search": "../search/search",
     "f-swiper": "../swiper/swiper",
-    "f-section": "../section/section"
+    "f-section": "../section/section",
+    "f-hot": "../hot/hot",
+    "f-product": "../product/product",
+    "f-banner": "../banner/banner",
+    "f-link": "../link/link"
   }
 }

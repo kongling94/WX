@@ -1,4 +1,8 @@
 /**index.wxss**/
+.container {
+  background: #f5f5f5;
+  font-family: Helvetica Neue, Helvetica, Arial, SCREEN GP Sans SC, sans-serif;
+}
 .userinfo {
   display: flex;
   flex-direction: column;

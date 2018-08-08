@@ -1,0 +1,9 @@
+<view class="banner">
+  <view class="banner-wrap">
+    <view class="banner-item" wx:for="{{bannerList}}" wx:key="item.id">
+      <image src="{{item.image}}" mode="cover"></image>
+      <view class="box-shadow"></view>
+    </view>
+    <view class="banner-item"></view>
+  </view>
+</view>

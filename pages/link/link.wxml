@@ -1,0 +1,7 @@
+<view class="link">
+  <view class="link-wrap">
+    <view class="link-item" wx:for="{{linkList}}" wx:key="item.id">
+      <image src="{{item.image}}" mode="cover"></image>
+    </view>
+  </view>
+</view>

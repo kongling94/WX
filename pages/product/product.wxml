@@ -1,0 +1,15 @@
+<view class="product">
+  <view class="product-title">产品展示</view>
+  <view class="product-wrap">
+    <view class="product-item" wx:for="{{productList}}" wx:key="item.id">
+      <view class="product-image">
+        <image src="{{item.image}}"></image>
+      </view>
+      <view class="item-content">
+        <view class="item-title">{{item.title}}</view>
+        <view class="item-desc">{{item.desc}}</view>
+        <view class="item-price">￥{{item.price}}</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,7 +1,18 @@
-<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex">
-  <!-- display: inline-block -->
-  <view style="background: red; width: 200px; height: 100px; display: inline-block"></view>
-  <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
-  <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
-  <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
-</scroll-view>
+<view class="hot">
+  <view class="hot-title">热销产品</view>
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" class="hot-scroll">
+    <!-- display: inline-block -->
+    <view class="scroll-wrap">
+      <view class="scroll-item" wx:for="{{hotList}}" wx:key="{{item.id}}">
+        <view class="item-image" bindtap="navigateToUrl" data-url="{{item.url}}">
+          <image src="{{item.image}}"></image>
+        </view>
+        <view class="item-content">
+          <view class="item-title">{{item.title}}</view>
+          <view class="item-desc">{{item.desc}}</view>
+          <view class="item-price">￥{{item.price}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
